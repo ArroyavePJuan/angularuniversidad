@@ -3,18 +3,18 @@
         <section class="col-8">
             <h2>Registro de estudiantes</h2>
             <hr>
-            <form>
+            <form [formGroup]="formulario">
                 <section class="mb-3">
                     <label class="form-label">Nombres: </label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" formControlName="nombre">
                 </section>
                 <section class="mb-3">
                     <label class="form-label">Documento: </label>
-                    <input type="number" class="form-control">
+                    <input type="number" class="form-control" formControlName="documento">
                 </section>
                 <section class="mb-3">
                     <label class="form-label">Correo: </label>
-                    <input type="email" class="form-control" placeholder="Email@example.com" >
+                    <input type="email" class="form-control" placeholder="Email@example.com" formControlName="correo">
                     <button type="submit" class="btn btn-primary w-100">Registrar</button>
                 </section>
             </form>
