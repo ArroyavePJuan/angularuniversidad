@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './shared/menu/menu.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AcercadeComponent } from './acercade/acercade.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AcercadeComponent } from './acercade/acercade.component';
     HomeComponent,
     MenuComponent,
     FooterComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
